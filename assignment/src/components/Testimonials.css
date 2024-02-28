@@ -1,0 +1,94 @@
+.connecting-dreams-to {
+  margin: 0;
+  font-weight: 800;
+}
+.your-premier1 {
+  font-weight: 700;
+}
+.your-premier {
+  margin: 0;
+  color: var(--accents-sea-blue);
+}
+.real-estate-marketplace {
+  margin: 0;
+  font-weight: 800;
+}
+.connecting-dreams-to-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 5rem;
+  font-family: inherit;
+}
+.where-every-search {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 1.5rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.terms-and-conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem 0;
+  max-width: 100%;
+}
+.primary-button1 {
+  height: 3.625rem;
+  width: 14rem;
+}
+.primary-button2 {
+  height: 3.625rem;
+  flex: 1;
+  min-width: 9.75rem;
+}
+.customer-support,
+.testimonials {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.customer-support {
+  width: 34rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 5rem;
+}
+.testimonials {
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem 0;
+  text-align: center;
+  font-size: var(--font-size-53xl);
+  color: var(--foundation-dark-blue);
+  font-family: var(--desktop-menu-buttons-inactive);
+}
+@media screen and (max-width: 750px) {
+  .connecting-dreams-to-container {
+    font-size: var(--font-size-39xl);
+    line-height: 4rem;
+  }
+  .customer-support {
+    gap: 0 5rem;
+  }
+  .testimonials {
+    gap: 2.5rem 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .connecting-dreams-to-container {
+    font-size: var(--font-size-24xl);
+    line-height: 3rem;
+  }
+  .where-every-search {
+    font-size: var(--desktop-menu-buttons-inactive-size);
+    line-height: 1.188rem;
+  }
+  .customer-support {
+    gap: 0 5rem;
+  }
+}
