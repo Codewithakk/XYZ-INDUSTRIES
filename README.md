@@ -1,4 +1,4 @@
-#Assignment
+
 Note: Please ensure you have installed nodejs
 
 To preview and run the project on your device:
